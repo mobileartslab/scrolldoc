@@ -263,7 +263,7 @@
                     ){
                         /* - We scrolled past the top of the container
                          * - We haven't scrolled to the point where the smallest column
-                         * fits exactly in the remaing visible container space
+                         * fits exactly in the remaining visible container space
                          * - We haven't scrolled past the bottom of the container either
                          */
                          //console.log(this.windowBottom + 'wb <' + this.containerTop  + 'ct ' + this.$tallestColumn.outerHeight() );
