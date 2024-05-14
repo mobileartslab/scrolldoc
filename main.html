@@ -11,7 +11,6 @@
             overflow-y: scroll;
         }
         body { font-family: 'Roboto'; line-height: 1.6; }
-        /* to-do : to refactor in plugin css file */
 
 
         .differential-scroll-container {
@@ -31,39 +30,16 @@
             height: auto;
         }
 
+        .step-wrapper {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 30px;
+            padding-bottom: 60px;
+        }
+
         .demo-wrapper {
-            background-image: radial-gradient(circle at 44% 13%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 98%,transparent 98%, transparent 100%),radial-gradient(circle at 87% 84%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 46%,transparent 46%, transparent 100%),radial-gradient(circle at 84% 60%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 40%,transparent 40%, transparent 100%),radial-gradient(circle at 21% 32%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 28%,transparent 28%, transparent 100%),radial-gradient(circle at 57% 12%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 34%,transparent 34%, transparent 100%),radial-gradient(circle at 33% 60%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 29%,transparent 29%, transparent 100%),radial-gradient(circle at 3% 11%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 60%,transparent 60%, transparent 100%),radial-gradient(circle at 0% 74%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 87%,transparent 87%, transparent 100%),linear-gradient(45deg, rgb(99, 105, 190),rgb(99, 70, 205));
-            color: #fafafa;
         }
 
-        .purple-wrapper {
-            background: #66f;
-        }
-
-        .black-purple-wrapper {
-            background: #34495e;
-        }
-
-        .navbar {
-            margin-bottom: 0;
-
-        }
-
-        footer {
-            background: #34495e;
-        }
-
-        .btn-success {
-            background: #7fffd4;
-            color: #34495e;
-            transition: all .3s ease;
-        }
-
-        .btn-success:hover,
-        .btn-success:focus {
-            background: #00ffff;
-            color: #34495e;
-        }
     </style>
 </head>
 <body>
@@ -88,30 +64,15 @@
     <section class="container">
         <div class="row">
             <div class="differential-scroll-container" style="">
-                <div class="differential-scroll-column col-xs-12 col-sm-6" style="padding:20px;">
-                    <h3>First example</h3>
-                    <p>Tempore corporis culpa quod hic voluptate debitis, facere modi id dignissimos dolor reprehenderit enim
-                        accusantium delectus cumque, soluta alias in amet repellat harum maxime! Quis voluptates cupiditate
-                        dolores beatae debitis.</p>
-                    <img class="img-rounded img-responsive" src="https://picsum.photos/300/225" alt="">
+                <div class="differential-scroll-column col-xs-5 col-sm-4" style="padding:20px;">
+                    <img class="img-rounded img-responsive step-wrapper" src="./assets/images/step1.png" alt="">
+                    <img class="img-rounded img-responsive step-wrapper" src="./assets/images/step2.png" alt="">
+                    <img class="img-rounded img-responsive step-wrapper" src="./assets/images/step3.png" alt="">
+                    <img class="img-rounded img-responsive step-wrapper" src="./assets/images/step4.png" alt="">
+                    <img class="img-rounded img-responsive step-wrapper" src="./assets/images/step5.png" alt="">
                 </div>
-                <div class="differential-scroll-column col-xs-12 col-sm-6" style="padding:20px;">
-                    <img class="img-rounded img-responsive" src="https://picsum.photos/400/300" alt="">
-                    <p class="img-comment"><strong>Note:</strong> placeholder image courtesy of https://picsum.photos/</p>
-                    <img class="img-rounded img-responsive" src="https://picsum.photos/400/300" alt="">
-                    <p class="img-comment"><strong>Note:</strong> placeholder image courtesy of https://picsum.photos/</p>
-                    <img class="img-rounded img-responsive" src="https://picsum.photos/400/300" alt="">
-                    <p class="img-comment"><strong>Note:</strong> placeholder image courtesy of https://picsum.photos/</p>
-                    <img class="img-rounded img-responsive" src="https://picsum.photos/400/300" alt="">
-                    <p class="img-comment"><strong>Note:</strong> placeholder image courtesy of https://picsum.photos/</p>
-                    <img class="img-rounded img-responsive" src="https://picsum.photos/400/300" alt="">
-                    <p class="img-comment"><strong>Note:</strong> placeholder image courtesy of https://picsum.photos/</p>
-                    <img class="img-rounded img-responsive" src="https://picsum.photos/400/300" alt="">
-                    <p class="img-comment"><strong>Note:</strong> placeholder image courtesy of https://picsum.photos/</p>
-                    <img class="img-rounded img-responsive" src="https://picsum.photos/400/300" alt="">
-                    <p class="img-comment"><strong>Note:</strong> placeholder image courtesy of https://picsum.photos/</p>
-                    <img class="img-rounded img-responsive" src="https://picsum.photos/400/300" alt="">
-                    <p class="img-comment"><strong>Note:</strong> placeholder image courtesy of https://picsum.photos/</p>
+                <div class="differential-scroll-column col-xs-20 col-sm-8" style="padding:20px;background-color:#fbfbfb">
+                    <img class="img-rounded img-responsive" src="./assets/images/090101@2x.png" alt="">
                 </div>
             </div>
         </div>
